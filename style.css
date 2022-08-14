@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+.header{
+    padding: 20px;
+    
+}
+.header-content-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_image{
+    width: 160px;
+    height: 23px;
+}
+.child-div{
+    display: flex;
+    gap: 1rem;
+}
+.chat-div{
+    padding: 10px 15px;
+    align-items: center;
+    display: flex;
+    gap: 0.3rem;
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid black;
+}
+.chat-div:hover{
+    background-color: #FD7E14;
+    color: white;
+    border: 0px;
+}
+.login-btn{
+   padding: 0px 15px;
+   background-color: #FD7E14;
+   border: 0px;
+   border-radius: 4px;
+   color: white;
+   font-weight: bold;
+}
+.navbar{
+    padding: 15px;
+    background-color: #FFCC33;
+}
+.inner-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 1.7rem;
+}
+.nav-ancor{
+    text-decoration: none;
+    color: black;
+
+}
+.calculator-div{
+    height: 270px;
+}
+.calculator-inner-div{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+.love-icon-div{
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+}
+.love-icon{
+    width: 120px;
+}
+.calculator-inner-div2{
+    padding: 20px;
+}
+.calculator-inner-div2>p{
+    margin-top: 10px;
+}
+.form-div{
+    height: fit-content;
+    background-color: #F4F4F4;
+    padding: 70px;
+}
+.form-inner-div{
+    width: 90%;
+    margin: auto;
+    height: 487px;
+    
+}
+.para{
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
+.form-inner-div>div:nth-child(1){
+    text-align: center;
+}
+.first-form{
+    display: flex;
+    margin-top: 40px;
+    color: gray;
+}
+.input-tag{
+    width: 250px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.select-tag{
+    width: 250px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.dob-tag{
+    width: 170px;
+    padding: 11px;
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 5px;
+}
+#month-year{
+    margin-top: 25px;
+}
+.second-form{
+    display: flex;
+    margin-top: 20px;
+    color: gray;
+}
+.form-calculator-last-div{
+    display: flex;
+    gap: 5rem;
+    margin-top: 30px;
+    align-items: center;
+}
+.form-calculator-last-div>input{
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#calculate-btn{
+    width: 205px;
+    padding:15px;
+    background-color: #FD7E14;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#calculate-btn:hover{
+    background-color: #FFCC33;
+    color: white;
+}
+.btn-div{
+    text-align: center;
+}
+.paragraph-div{
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+.paragraph-div>p{
+    margin-top: 20px;
+}
+.paragraph-div>h3{
+    margin-top: 20px;
+}
+.grid-header{
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.grid-header>p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.grid-container{
+    display: grid;
+    width: 82%;
+    margin: auto;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.grid-container>div{
+    padding: 20px;
+    width: 130px;
+    height: 130px;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 10px;
+}
+.grid-container>div>img{
+    width: 80px;
+    height: 80px;
+}
+.grid-container>div>:nth-child(2){
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.grid-container>div:hover,.grid-container>div>p:hover{
+    border-color: #FD7E14;
+    color: #FD7E14;
+}
+.footer{
+    margin-top: 50px;
+}
+
+.pop-up-div{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: -80%;
+    left: 15%;
+    background-color: white;
+    border-radius: 20px;
+    display: none;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pop-up-div img{
+    width: 140px;
+    height: 140px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.pop-up-div p{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pop-up-div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pop-up-div div>i{
+    font-size: 40px;
+    color: rgb(221, 37, 37);
+    margin-right: 10px;
+}
+.pop-up-div button{
+    width: 187px;
+    height: 45px;
+    background-color: #FD7E14;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#closeIcon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    color: white;
+    padding: 7px 8px;
+    align-items: center;
+}
+
+
+/* footer styles  */
+
+.footer{
+    background-color: #212529;
+    height: 280px;
+    padding: 30px;
+}
+.footer-inner-div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.footer-inner-div h2{
+    color: white;
+}
+.footer-inner-div p{
+    color: white;
+    margin-top: 10px;
+}
+.footer-inner-div img{
+    width: 140px;
+    margin-top: 20px;
+}
+.copyright{
+    border-top: 1px solid white;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+.copyright p{
+    color: white;
+}
